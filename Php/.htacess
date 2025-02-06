@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^register$ index.php [QSA,L]
+RewriteRule ^api/getUser$ api/getUser.php [QSA,L]
